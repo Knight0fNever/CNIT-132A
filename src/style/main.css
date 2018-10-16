@@ -1,0 +1,19 @@
+.service-header {
+  color: #b05c11;
+}
+
+main > a[href$='.html'] {
+  content: url(../img/browser.png);
+}
+
+main > a[href$='.htm'] {
+  content: url(../img/browser.png);
+}
+
+main > a[href$='.pdf'] {
+  content: url(../img/pdf.png);
+}
+
+main > a {
+  content: url(../img/intmark.png);
+}
